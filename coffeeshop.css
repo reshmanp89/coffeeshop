@@ -1,0 +1,232 @@
+.mainheader
+{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: white;
+    
+    
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    font-size: large;
+
+}
+.table
+{
+    width:158px;
+    height: 21px;
+    border: black solid 2px;
+    padding: 20px;
+}
+.table:hover
+{
+border:black dotted 2px;
+background-color:rgb(153, 111, 82);
+}
+.home
+{
+
+    /* width: 121%; */
+    height: 700px;
+    /* border: solid 2px black; */
+    background-image: url("./imagecoffee/coffeebag2.jpg");
+}
+
+
+.content 
+{
+    color: brown;
+    padding: 50px;
+    font-size: larger;
+    
+}
+
+.about
+{  
+     /* width:121%; */
+    height: 1000px;
+    /* border: black solid 2px; */
+    text-align: center;
+
+position:relative;
+background-image: url("./imagecoffee/home-bg.jpg");
+
+}
+h1
+{   
+    
+    font-size: 80px;
+    -webkit-text-stroke: 2px rgb(237, 219, 219);
+    text-align: center;
+    padding-top: 20px;
+
+}
+.aboutimage
+{
+    width:44%;
+    height: 82%;
+    /* border: solid black 1px; */
+    position: absolute;
+    left: 100px;
+    background-image: url("./imagecoffee/about\ us.jpg");
+    border-radius: 50px;
+}
+.special
+{
+    position: absolute;
+    left:50%;
+    color: black;
+    top:100px;
+    
+}
+.special,h3{
+    font-size:30px;
+    -webkit-text-stroke:0mm;
+}
+.special,p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.readmore
+{
+    color: rgb(150, 183, 237);
+}
+.readmore:hover{
+    color: blue;
+}
+.icon-container
+{   height: 50%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 150px;
+
+}
+.col
+{
+    width:25%;
+    height: 20%;
+    border: solid 2px black;
+    border-radius: 50px;
+    
+}
+.col:hover
+{
+    border:dotted 5px rgb(111, 78, 55);
+}
+.col-1,.col-2,.col-3,.col-4
+{
+    /* padding: 50px; */
+    margin-top: -50px;
+}
+.menu
+{   
+    /* width:121%; */
+    height: 1000px;
+    background-image: url("./imagecoffee/menu-bg.jpg");
+    
+}
+.menu-container
+{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+
+}
+.menu-1,.menu-2,.menu-3,.menu-4
+{
+    width:400px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+.img-disable
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin:30px ;
+}
+
+.menu-title
+{
+    
+    color:rgb(111, 78, 55);
+    margin-top: 40px;
+}
+.menu-para
+{
+    font-weight:bold;
+}
+
+.price
+{
+    color:green
+}
+.c1:hover
+{
+    box-shadow:  5px 10px  #888888;
+  
+    border:dotted 5px rgb(111, 78, 55);
+}
+.booking
+{
+    /* width:121%; */
+    background-image: url("./imagecoffee/book-bg.jpg");
+    height: 1000px;
+}
+.form1
+{
+    /* border: black solid 5x; */
+    width:500px;
+    height:500px;
+    /* background-color: rgb(111, 78, 55); */
+    margin-left: 37%;
+    
+    
+
+}
+input,textarea{
+    padding: 5%;
+    background-color:rgba(214, 159, 119, 0.145);
+    width: 445px;
+    margin: 5%;
+}
+button
+{
+    margin-left: 25px;
+    padding: 5%;
+    border-radius: 40%;  background-color:rgba(214, 159, 119, 0.145);
+}
+.last
+{
+    /* width:121%; */
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(214, 159, 119, 0.145);
+}
+.coll
+{   margin-top: 30px;
+    width:200px;
+    height:150px ;
+    padding-left: 10px;
+    
+    
+}
+.contact
+{
+    
+    
+    width:100%;
+    
+    display: flex;
+    justify-content:center
+}
